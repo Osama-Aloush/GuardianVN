@@ -1,0 +1,591 @@
+
+FireFx.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-1
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-2
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-3
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-4
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx2.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-5
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-6
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-7
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-8
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx3.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-10
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-11
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-12
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-9
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx4.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-13
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-14
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-15
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-16
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx5.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-17
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-18
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-19
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-20
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx6.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-21
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-22
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-23
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-24
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx7.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-25
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-26
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-27
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-28
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx8.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-29
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-30
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-31
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-32
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx9.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-33
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-34
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-35
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-36
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx10.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-37
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-38
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-39
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-40
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx11.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-41
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-42
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-43
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-44
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx12.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-45
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-46
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-47
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-48
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx13.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-49
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-50
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-51
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-52
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx14.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-53
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-54
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-55
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-56
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx15.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-57
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-58
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-59
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-60
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx16.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-61
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-62
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-63
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-64
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx17.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-65
+  rotate: false
+  xy: 2, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-66
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-67
+  rotate: false
+  xy: 504, 459
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+firefx-68
+  rotate: false
+  xy: 504, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
+
+FireFx18.png
+size: 512, 512
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+firefx-69
+  rotate: false
+  xy: 2, 2
+  size: 500, 455
+  orig: 500, 455
+  offset: 0, 0
+  index: -1
