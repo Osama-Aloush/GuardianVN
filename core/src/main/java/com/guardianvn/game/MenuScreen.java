@@ -31,7 +31,7 @@ public class MenuScreen extends BaseScreen{
         startButton.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                BaseGame.setActiveScreen(new BattleScreen()); // Opens the StoryScreen class
+                BaseGame.setActiveScreen(new StoryScreen()); // Opens the StoryScreen class
             }
         });
 
