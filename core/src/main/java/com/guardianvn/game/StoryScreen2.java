@@ -38,7 +38,7 @@ public class StoryScreen2 extends BaseScreen{
         BaseActor.setWorldBounds(background);
         fx = new Effects(0,0,mainStage);
         fx.setVisible(false);
-        fx.setAnimation(fx.player1Animation);
+        fx.setAnimation(fx.fireFXAni);
         fx.setSize(1280, 720);
         fx.setOrigin(640, 360);
 

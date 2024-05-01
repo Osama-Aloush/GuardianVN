@@ -34,6 +34,7 @@ public class Background extends BaseActor {
     public Animation groundTex;
     public Animation RamaTex;
     public Animation black;
+    public Animation battle;
 
     // This is a background constructor that the statement to inherit the constructor from the superclass BaseActor.
     public Background(float x, float y, Stage s){
@@ -53,6 +54,7 @@ public class Background extends BaseActor {
         RamaTex = loadTexture("Extra/GroundRama.png");
         theEnd = loadTexture("Background/the-end.png");
         black = loadTexture("Extra/Black.png");
+        battle = loadTexture("Background/Forest1.png");
         setSize(1280,720);
         centerAtPosition(640,360);
 

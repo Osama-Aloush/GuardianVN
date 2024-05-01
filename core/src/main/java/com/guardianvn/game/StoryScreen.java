@@ -1,7 +1,5 @@
 package com.guardianvn.game;
 
-import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.bladecoder.ink.runtime.Story;
@@ -40,7 +38,7 @@ public class StoryScreen extends BaseScreen{
         BaseActor.setWorldBounds(background);
         fx = new Effects(0,0,mainStage);
         fx.setVisible(false);
-        fx.setAnimation(fx.player1Animation);
+        fx.setAnimation(fx.fireFXAni);
         fx.setSize(1280, 720);
         fx.setOrigin(640, 360);
 

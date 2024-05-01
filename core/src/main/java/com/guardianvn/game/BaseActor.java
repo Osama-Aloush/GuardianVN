@@ -8,6 +8,7 @@ import com.badlogic.gdx.graphics.Texture.TextureFilter;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Animation.PlayMode;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Intersector;
 import com.badlogic.gdx.math.Intersector.MinimumTranslationVector;
@@ -52,6 +53,7 @@ import java.util.ArrayList;
 public class BaseActor extends Group
 {
     private Animation<TextureRegion> animation;
+    private Sprite sprite;
     private float elapsedTime;
     private boolean animationPaused;
 
@@ -148,6 +150,18 @@ public class BaseActor extends Group
         float h = tr.getRegionHeight();
         setSize( w, h );
         setOrigin( w/2, h/2 );
+
+        if (boundaryPolygon == null)
+            setBoundaryRectangle();
+    }
+
+    public void setSprite(Sprite spr)
+    {
+        this.sprite = spr;
+        float w = sprite.getWidth();
+        float h = sprite.getHeight();
+        setSize(w, h);
+        setOrigin(w / 2, h / 2);
 
         if (boundaryPolygon == null)
             setBoundaryRectangle();

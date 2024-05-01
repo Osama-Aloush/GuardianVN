@@ -11,8 +11,8 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 
 public class Effects extends BaseActor{
 
-    private TextureAtlas player1Atlas ;
-    public Animation<TextureRegion> player1Animation ;
+    private TextureAtlas fireFX;
+    public Animation<TextureRegion> fireFXAni;
 
     private float stateTime;
     //public Sprite frame = new Sprite (player1Animation.getKeyFrame(stateTime, true));
@@ -23,9 +23,9 @@ public class Effects extends BaseActor{
 
         //batch = new SpriteBatch();
 
-        player1Atlas = new TextureAtlas(Gdx.files.internal("effects/FireFx/FireFx.atlas")); // Replace with your atlas file;
-        player1Animation = new Animation<>(1f / 24f, player1Atlas.getRegions()); // Adjust frame duration as needed;
-        player1Animation.setPlayMode(Animation.PlayMode.LOOP);
+        fireFX = new TextureAtlas(Gdx.files.internal("effects/FireFx/FireFx.atlas")); // Replace with your atlas file;
+        fireFXAni = new Animation<>(1f / 24f, fireFX.getRegions()); // Adjust frame duration as needed;
+        fireFXAni.setPlayMode(Animation.PlayMode.LOOP);
 
 
         stateTime = 0f; // Initialize stateTime here
@@ -47,7 +47,7 @@ public class Effects extends BaseActor{
         batch.setBlendFunction(GL20.GL_SRC_ALPHA, GL20.GL_ONE);
 
         // Draw the animation
-        batch.draw(player1Animation.getKeyFrame(stateTime, true), getX(), getY(), getOriginX(), getOriginY(),
+        batch.draw(fireFXAni.getKeyFrame(stateTime, true), getX(), getY(), getOriginX(), getOriginY(),
             getWidth(), getHeight(), getScaleX(), getScaleY(), getRotation());
 
         // Reset the blend function to default
