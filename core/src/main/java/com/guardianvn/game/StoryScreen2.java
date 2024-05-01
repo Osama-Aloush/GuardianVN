@@ -155,64 +155,19 @@ public class StoryScreen2 extends BaseScreen{
             System.out.println("Story is not initialized.");
             return;
         }
-        background.addAction(Actions.sequence(
-            Actions.alpha(0), // Start with transparency
-            Actions.fadeIn(1f) // Fade in over 1 second
-        ));
-        // Hides the dialog box
-        dialogBox.setVisible(false);
-        dialogBox.setText(" ");
-        dialogBox.addAction(Actions.sequence(
-            Actions.alpha(0), // Start with transparency
-            Actions.fadeIn(0.5f) // Fade in over 1 second
-        ));
-        // Show the dialog box
-        dialogBox.setVisible(true);
-        dialogBox.addAction(new TypewriterAction(" "));
-        // Start the story from the beginning
-        scene.start();
-
-
-    }
-
-    private void scene2() {
-        scene = new Scene("guardian2.json");
-        String json = scene.loadStory("guardian2.json");
-
-        if (json != null) {
-            // Create the Ink story
-            try {
-                story = new Story(json);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        } else {
-            System.out.println("Failed to load story.");
-        }
-        // Reset the story state
-        if (story != null) {
-            try {
-                story.resetState();
-
-            } catch (Exception e) {
-                System.out.println("File Not Found");
-            }
-        }  else {
-            System.out.println("Story is not initialized.");
-            return;
-        }
 
         background2.setVisible(false);
         fx.setVisible(false);
+        black.setVisible(true);
         black.addAction(Actions.fadeOut(1f));
         background.setAnimation(background.forestDay);
         background.addAction(Actions.sequence(
             Actions.alpha(0), // Start with transparency
             Actions.fadeIn(1f) // Fade in over 1 second
         ));
-        // Hides the dialog box
-        dialogBox.setVisible(false);
 
+        // Hides the dialog box
+        dialogBox.setVisible(true);
         dialogBox.setText(" ");
         dialogBox.addAction(Actions.sequence(
             Actions.alpha(0), // Start with transparency
@@ -224,8 +179,8 @@ public class StoryScreen2 extends BaseScreen{
         // Start the story from the beginning
         scene.start();
 
-    }
 
+    }
 
 
     @Override
@@ -238,30 +193,229 @@ public class StoryScreen2 extends BaseScreen{
                 dialogBox.clearActions(); // Clear any ongoing actions (such as the TypewriterAction)
                 dialogBox.setText(line);
 
+                if (line.contains("Rrrrrrghhhhhh")){
+                    boss.setVisible(true);
+                    boss.setAnimation(boss.Boss2);
+                    boss.addAction(Actions.sequence(
+                        Actions.moveBy(10,0),
+                        Actions.moveBy(-9,0, 0.01f),
+                        Actions.moveBy(8,0, 0.01f),
+                        Actions.moveBy(-7, 0, 0.01f),
+                        Actions.moveBy(6, 0, 0.01f),
+                        Actions.moveBy(-5, 0, 0.01f),
+                        Actions.moveBy(4, 0, 0.01f),
+                        Actions.moveBy(-3, 0, 0.01f),
+                        Actions.moveBy(2, 0, 0.01f),
+                        Actions.moveBy(-1, 0, 0.01f),
+                        Actions.moveBy(1, 0, 0.01f)));
+
+                }
+
+                if (line.contains("H-How?")){
+                    mc.setVisible(true);
+                    mc.moveBy(-250,0);
+                    brother.setVisible(false);
+                    boss.setVisible(true);
+                    boss.moveBy(300,0);
+                }
+
+                if (line.contains("whoosh*")){
+
+                    mc.addAction(Actions.moveBy(2000,0,0.7f));
+                    boss.addAction(Actions.sequence(
+                        Actions.moveBy(10,0),
+                        Actions.moveBy(-9,0, 0.01f),
+                        Actions.moveBy(8,0, 0.01f),
+                        Actions.moveBy(-7, 0, 0.01f),
+                        Actions.moveBy(6, 0, 0.01f),
+                        Actions.moveBy(-5, 0, 0.01f),
+                        Actions.moveBy(4, 0, 0.01f),
+                        Actions.moveBy(-3, 0, 0.01f),
+                        Actions.moveBy(2, 0, 0.01f),
+                        Actions.moveBy(-1, 0, 0.01f),
+                        Actions.moveBy(1, 0, 0.01f)));
+                }
+
+                if (line.contains("UGhhh!")){
+
+                    boss.addAction(Actions.sequence(
+                        Actions.moveBy(10,0),
+                        Actions.moveBy(-9,0, 0.01f),
+                        Actions.moveBy(8,0, 0.01f),
+                        Actions.moveBy(-7, 0, 0.01f),
+                        Actions.moveBy(6, 0, 0.01f),
+                        Actions.moveBy(-5, 0, 0.01f),
+                        Actions.moveBy(4, 0, 0.01f),
+                        Actions.moveBy(-3, 0, 0.01f),
+                        Actions.moveBy(2, 0, 0.01f),
+                        Actions.moveBy(-1, 0, 0.01f),
+                        Actions.moveBy(1, 0, 0.01f)));
+
+                }
+                if (line.contains("Stop moving like that!")){
+                    mc.setAnimation(mc.normal2);
+                    mc.addAction(Actions.moveBy(-1350,0));
+
+                    boss.moveBy(-600,0);
+                }
+
+                if (line.contains("battle sound*")){
+                    mc.setVisible(false);
+
+                    boss.setVisible(false);
+                    brother.setVisible(false);
+                }
+
+                if (line.contains("Hang on...")){
+                    bandit1.setVisible(true);
+                }
+
+                if (line.contains("Wh-what is it?")){
+                    bandit2.setVisible(true);
+                    bandit1.moveBy(150,0);
+                    bandit2.moveBy(-100,0);
+                }
+
+                if (line.contains("It cannot be!")){
+                    bandit2.addAction(Actions.sequence(
+                        Actions.moveBy(10,0),
+                        Actions.moveBy(-9,0, 0.01f),
+                        Actions.moveBy(8,0, 0.01f),
+                        Actions.moveBy(-7, 0, 0.01f),
+                        Actions.moveBy(6, 0, 0.01f),
+                        Actions.moveBy(-5, 0, 0.01f),
+                        Actions.moveBy(4, 0, 0.01f),
+                        Actions.moveBy(-3, 0, 0.01f),
+                        Actions.moveBy(2, 0, 0.01f),
+                        Actions.moveBy(-1, 0, 0.01f),
+                        Actions.moveBy(1, 0, 0.01f)));
+                }
+
+                if (line.contains("Way to go brother!")){
+                    bandit2.setVisible(false);
+                    bandit1.setVisible(false);
+                    brother.setVisible(true);
+                    brother.setAnimation(brother.brotherNormal2);
+                }
+
+                if (line.contains("fall*")){
+                    boss.addAction(Actions.moveBy(0,-200,1f));
+                    boss.addAction(Actions.sequence(
+                        Actions.moveBy(10,0),
+                        Actions.moveBy(-9,0, 0.01f),
+                        Actions.moveBy(8,0, 0.01f),
+                        Actions.moveBy(-7, 0, 0.01f),
+                        Actions.moveBy(6, 0, 0.01f),
+                        Actions.moveBy(-5, 0, 0.01f),
+                        Actions.moveBy(4, 0, 0.01f),
+                        Actions.moveBy(-3, 0, 0.01f),
+                        Actions.moveBy(2, 0, 0.01f),
+                        Actions.moveBy(-1, 0, 0.01f),
+                        Actions.moveBy(1, 0, 0.01f)));
+                    boss.addAction(Actions.fadeOut(0.5f));
+
+                }
+
+                if (line.contains("Please stop!")){
+                    boss.setOpacity(100);
+                    boss.setPosition(-200,-1000);
+                    boss.moveBy(300,-100);
+
+                }
+
+                if (line.contains("then get out before")){
+                    mc.addAction(Actions.moveBy(100,0,2f));
+
+                }
+
+                if (line.contains("leaves*")){
+                    boss.addAction(Actions.moveBy(100,0,2f));
+                    boss.addAction(Actions.fadeOut(1f));
+
+                }
+
+                if (line.contains("That was AMAZING brother!")){
+                    brother.setVisible(true);
+                    brother.setAnimation(brother.brotherNormal2);
+                    brother.moveBy(150,0);
+                    mc.setVisible(true);
+                    mc.moveBy(-50,0);
+
+                }
+
+                if (line.contains("Kattara...")){
+
+                    mc.addAction(Actions.moveBy(50,0,1f));
+
+                }
+
+                if (line.contains("OW!")){
+                    brother.setAnimation(brother.brotherAngry);
+                    brother.addAction(Actions.sequence(
+                        Actions.moveBy(10,0),
+                        Actions.moveBy(-9,0, 0.01f),
+                        Actions.moveBy(8,0, 0.01f),
+                        Actions.moveBy(-7, 0, 0.01f),
+                        Actions.moveBy(6, 0, 0.01f),
+                        Actions.moveBy(-5, 0, 0.01f),
+                        Actions.moveBy(4, 0, 0.01f),
+                        Actions.moveBy(-3, 0, 0.01f),
+                        Actions.moveBy(2, 0, 0.01f),
+                        Actions.moveBy(-1, 0, 0.01f),
+                        Actions.moveBy(1, 0, 0.01f)));
+
+                }
+
+                if (line.contains("Alright!")){
+
+                    brother.setAnimation(brother.brotherNormal2);
+                }
+
+
                 if (line.contains("...")){
                     counter = counter + 1;
                     System.out.println("Counter is " + counter);
-                    if (counter == 8) {
-                        dialogBox.setVisible(false);
 
-                        black.setVisible(true);
-                        black.setOpacity(0);
-                        black.addAction(Actions.sequence(
-                                Actions.fadeIn(1f), Actions.run(() -> {scene2();}) // Fade out over 1 second
-                            )
-                        );
-                    }
-                    if (counter == 12) {
+                    if (counter == 2) {
                         boss.setVisible(false);
                         mc.setVisible(true);
                         mc.setAnimation(mc.normal2F);
                         mc.setOpacity(0);
-                        mc.addAction(Actions.fadeIn(2f));
+                        mc.addAction(Actions.fadeIn(1f));
                     }
-                    if (counter == 13) {
-                        mc.addAction(Actions.moveBy(75,0,1f));
+
+                    if (counter == 4) {
+                        mc.setVisible(true);
+                        mc.setPosition(200,-950);
+                        mc.setAnimation(mc.normal2F);
+                        mc.moveBy(-250,0);
+                        boss.setVisible(true);
+                        boss.setPosition(-200,-1000);
+                        boss.moveBy(300,0);
+
                     }
-                    if (counter == 16) {
+
+                    if (counter == 6) {
+                        mc.setVisible(false);
+
+                        boss.setVisible(false);
+                        bandit1.setVisible(true);
+                        bandit2.setVisible(true);
+
+                        bandit1.addAction(Actions.sequence(
+                            Actions.moveBy(0,0,0.4f),
+                            Actions.moveBy(150,0,1f)
+                        ));
+                        bandit1.addAction(Actions.fadeOut(1f));
+
+                        bandit2.addAction(Actions.sequence(
+                            Actions.moveBy(0,0,0.4f),
+                            Actions.moveBy(150,0,1f)
+                        ));
+                        bandit2.addAction(Actions.fadeOut(1f));
+                    }
+
+                    if (counter == 11) {
                         black.setVisible(true);
                         black.setOpacity(0);
                         black.addAction(Actions.fadeIn(1f));
